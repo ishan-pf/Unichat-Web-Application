@@ -12,8 +12,10 @@ function Login() {
     return (
         <div id="login__page">
             <div id="login__card">
-                <h2>Welcome to UniChat!</h2>
-
+            <div className="login__card__heading">
+                <h2>DevChaT</h2>
+                <p>Chat Platform for Developers</p>
+                </div>
                 <div className="login__button google"
 
                     onClick={ () => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider()) }

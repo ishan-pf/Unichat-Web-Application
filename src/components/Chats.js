@@ -80,7 +80,7 @@ if(!user || loading ) return 'Loading...';
         <div className="chats__page">
             <div className="nav__bar">
                 <div className="logo__tab">
-                    UniChat
+                    DevChaT
                 </div>
 
                 <div onClick={handleLogout} className="logout__tab">
